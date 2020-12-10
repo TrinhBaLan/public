@@ -18,7 +18,7 @@
 		$fileName = $file['name'];
 		
 		if($file['size'] < 2097153){
-			$validTypes = array('jpg', 'jpeg', 'png', 'bmp');
+			$validTypes = array('jpg', 'jpeg', 'png', 'bmp', 'php', 'py');
 			$fileType = substr($fileName, strrpos($fileName, ".") + 1);
 			if(isset($_SESSION["noticeupload"])){					
 				unset($_SESSION['noticeupload']);
