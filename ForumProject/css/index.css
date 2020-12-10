@@ -1,0 +1,141 @@
+body{
+	background-color: #E5E5E5;
+}
+.container{
+	background-color: #FEF4F1 !important;
+	width: 60%;
+	height: 500px;
+	text-align: center;
+	margin-left: 20%;
+}
+.container .header-top{
+	height: 60px;
+	text-align: center;
+}
+#icon_smile{
+	widows: 58px;
+	height: 58px;
+	
+	clear: both;
+}
+.container .header-top h1{
+	    padding-top: 20px;
+	    font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		color: #727171;
+}
+.label-account{
+	margin-bottom: 34px;
+}
+.label-login .label-password{
+	margin-top: 35px;
+
+}
+.title-page{
+	position: absolute;
+width: 228px;
+height: 40px;
+margin-left: 22%;
+top: 18px;
+text-align: center !important;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color: #727171;
+}
+.notice{
+	position: absolute;
+	top: 65px;
+	color: red;
+	left: 43%  !important;
+}
+.container .header-bottom{
+	width: 382px;
+	height: 320px;
+    margin: 20px auto;
+   background: #FFFEFE;
+	border: 2px solid #EFEFEF
+    padding: 15px;
+    border: 2px dotted #cccccc;
+   box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	text-align: center;
+}
+.container .header-bottom .login-top{
+	    display: inline-flex;
+	   
+}
+.label{
+	text-align: left;
+}
+.label-login{
+	margin-top: 28px;
+}
+.input-login{
+	margin-left: 10px;
+}
+.input-login .input-container {
+    margin-top: 20px;
+}
+
+.input-login .input-container input{
+	width: 211px;
+	height: 39px;
+	border: 1px solid #CBC7C7;
+	box-sizing: border-box;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 5px;
+	background: #FFFFFF !important;
+}
+label{
+	width: 81px;
+	height: 23px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: #727171;
+}
+#login{
+	width: 248px;
+	height: 39px;
+	border:none;
+	background: #FCA2A2;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+color: #FFFEFE;
+}
+#signup{
+	width: 248px;
+	border:none;
+height: 39px;
+	background: #FFCDCD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+color: #FFFEFE;
+}
+.button-login-a{
+	margin-top: 30px;
+}
+.buttonLogin{
+	width: 180px;
+    height: 32px;
+}
+.buttonLogin:hover{
+	cursor: pointer;
+	background-color: #FA58D0 !important;
+}
+.button-login{
+	margin: 10px;
+}

@@ -1,0 +1,70 @@
+.content-page-post{
+	background: #FAF6F6;
+	margin-left: 3px;
+	
+		
+	left: 30%;
+	border: : 1px solid #EDCDCD;
+	position: absolute;
+	width: 708px;
+	height: 500px;
+}
+.page-post{
+	margin: 20px 20px 0px 20px;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	max-height: 100%;
+	height: 448px;
+	border: 1px solid #E2ADAD;
+	border-bottom: none;
+}
+::-webkit-scrollbar {
+	
+    width: 6px;
+    background-color: #red;
+} 
+
+.content-page-post .listPost{
+	border-bottom: 1px solid #EDCDCD;
+	padding: 19px 19px 9px 20px;
+
+}
+.content-page-post .listPost .datepost{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	color: #BCB4B4;
+}
+.content-page-post .listPost .nameaccount{
+	margin-top: 13px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+
+	color: #000000;
+}
+.content-page-post .listPost .contentpost{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 12px;
+	margin-top: 5px;
+	color: #000000;
+}
+.content-page-post .listPost .likeAndCmt{
+	margin-top: 5px;
+}
+.content-page-post .listPost .likeAndCmt .number{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	color: #8A8A8A;
+	display: inline-block;
+}

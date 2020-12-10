@@ -1,0 +1,121 @@
+.content{
+	background: #FAF6F6;
+	margin: 20px;
+	border: 1px solid #E2ADAD;
+	box-sizing: border-box;
+	overflow-y: scroll;
+	max-height: 100%;
+	height: 400px;
+	top: 150px;
+	left: 30%;
+	position: absolute;
+	width: 662px;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #red;
+} 
+.content .listPost{
+	border-bottom: 1px solid #EDCDCD;
+	padding: 10px 13px 10px 15px; 
+
+}
+.content .listPost .datepost{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	color: #BCB4B4;
+}
+.content .listPost .nameaccount{
+	margin-top: 13px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+
+	color: #000000;
+}
+.content .listPost .contentpost{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 12px;
+	margin-top: 5px;
+	color: #000000;
+}
+.content .listPost .likeAndCmt{
+	margin-top: 5px;
+}
+.content .listPost .likeAndCmt .number{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	color: #8A8A8A;
+	display: inline-block;
+}
+
+#my-content{
+	width: 550px;
+	height: 400px;
+}
+#content-detail{
+	width: 550px;
+	height: 250px;
+	max-height: 250px;
+	background-color: white;
+	overflow-y: auto;
+}
+#my-content .likeAndCmt{
+	position: absolute;
+	bottom: 195px;
+	display: -webkit-inline-box;
+}
+.comment-bottom{
+	display: -webkit-inline-box
+}
+#input-comment{
+	margin-left: 20px;
+	width: 400px;
+	height: 55px;
+}
+#post-content{
+	width: 550px;
+	height: 250px;
+	max-height: 250px;
+	overflow-y: auto;
+	padding: 15px;
+}
+#listcomment{
+	border:1px solid #E2ADAD;
+	position: absolute;
+	bottom: 86px;
+	width: 550px;
+	height: 100px;
+	max-height: 100px;
+	overflow-y: auto;
+	background-color: white;
+	    display: flex;
+    flex-direction: column;
+}
+.comment-item{
+	display: flex;
+	margin-top: 5px;
+	background-color: #F2F3F5;
+	border-radius: 5px;
+}
+.comment-name{
+	width: 150px;
+	margin-left: 5px;
+	font-size: 15px;
+	font-weight: 700;
+}
+.comment-text{
+	margin: 0 10px;
+    flex: 1;
+}
